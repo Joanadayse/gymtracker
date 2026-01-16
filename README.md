@@ -12,6 +12,8 @@ Permite cadastrar treinos (ex.: pernas, ombro, bíceps) e associar exercícios a
 - Postman (para testar os endpoints)
 
  Estrutura do projeto
+
+ ```bash
 src/main/java/com/joana/gymtracker
  ├── controller
  │    ├── TreinoController.java
@@ -23,6 +25,8 @@ src/main/java/com/joana/gymtracker
  │    ├── TreinoRepository.java
  │    └── ExercicioRepository.java
  └── GymtrackerApplication.java
+
+```
 
  Configuração do banco H2
 No arquivo application.properties:
